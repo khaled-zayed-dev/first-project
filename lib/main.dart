@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project1/home_screen%20.dart';
+import 'package:project1/login_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -8,6 +8,6 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: HomeScreen());
+    return MaterialApp(debugShowCheckedModeBanner: false, home: LoginScreen());
   }
 }
